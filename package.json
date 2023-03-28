@@ -1,0 +1,24 @@
+{
+  "name": "lyxcode-guildbot",
+  "version": "1.0.0",
+  "description": "A private discord bot for the Lyxcode community.",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyxcodeNet/Lyxcode-GuildBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyxcodeNet/Lyxcode-GuildBot/issues"
+  },
+  "homepage": "https://github.com/LyxcodeNet/Lyxcode-GuildBot#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "glob": "^9.3.2"
+  }
+}
