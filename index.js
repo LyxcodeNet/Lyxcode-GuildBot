@@ -11,7 +11,7 @@ client.config = require("./config.json");
 client.commands = new Collection();
 client.events = new Collection();
 
-const { loadEvents} = require("../handlers/events")
+const { loadEvents} = require("./handlers/events")
 loadEvents(client);
 
 client.login(client.config.token);
